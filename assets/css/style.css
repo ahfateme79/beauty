@@ -215,6 +215,25 @@ nav ul li.active a {
     }
 }
 @media screen and (max-width:700px){
+    .about{
+        width: 50%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .about h1 {
+        font-size: 20px;
+        font-size: 500;
+    }
+    
+    .about h3 {
+        font-size: 13px;
+        color: #fdf58c;
+    }
+    .about p {
+        font-size: 11px;
+        font-weight: 300;
+    }
+
     header{
         padding: 15px 0;
     }
@@ -764,6 +783,9 @@ footer ul li {
     .inner{
         padding: 45px;
     }
+    footer .col{
+        margin: 20px 0;
+    }
 }
 @media screen and (max-width:500px){
     .title{
@@ -771,5 +793,14 @@ footer ul li {
     }
     .inner{
         padding: 35px;
+    }
+    .description{
+        margin-bottom: 20px;
+    }
+    #service,#price{
+        padding-top: 30px;
+    }
+    .play-video{
+        margin-bottom: 30px;
     }
 }
